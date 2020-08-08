@@ -12,3 +12,7 @@ dependencies {
     runtimeOnly(Libraries.spring_boot_devtools)
     testImplementation(Libraries.spring_boot_test)
 }
+
+tasks.withType<Test> {
+    useJUnitPlatform()
+}
