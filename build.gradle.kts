@@ -14,18 +14,18 @@ plugins {
 
 java.sourceCompatibility = JavaVersion.VERSION_11
 
-configurations {
-    compileOnly {
-        extendsFrom(configurations.annotationProcessor.get())
-    }
-}
-
 allprojects {
     group = "com.example"
     version = "0.0.1-SNAPSHOT"
 
     repositories {
         mavenCentral()
+    }
+
+    configurations {
+        all {
+            exclude(group = "org.springframework.boot", module = "spring-boot-starter-logging")
+        }
     }
 }
 

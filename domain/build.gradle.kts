@@ -2,6 +2,7 @@ dependencies {
     implementation(Libraries.spring_boot_web)
     implementation(Libraries.spring_boot_data_jpa)
     implementation(Libraries.spring_boot_actuator)
+    implementation(Libraries.spring_boot_log4j2)
 
     implementation(Libraries.jackson_module_kotlin)
 
