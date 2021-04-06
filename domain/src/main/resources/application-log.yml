@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "local"
+logging:
+  config: "classpath:log4j2-local.xml"
+---
+spring:
+  config:
+    activate:
+      on-profile: "development"
+logging:
+  config: "classpath:log4j2-development.xml"
