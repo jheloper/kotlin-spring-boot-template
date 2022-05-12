@@ -17,3 +17,8 @@ dependencies {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+
+tasks.withType<Jar> {
+    enabled = true
+    archiveFileName.set("kotlin-spring-boot.jar")
+}

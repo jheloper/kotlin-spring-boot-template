@@ -1,6 +1,6 @@
 object Versions {
-    const val kotlin = "1.4.32"
-    const val spring_boot = "2.4.4"
+    const val kotlin = "1.6.21"
+    const val spring_boot = "2.6.7"
     const val spring_cloud = "2.2.7.RELEASE"
     const val aws_sdk = "2.13.23"
     const val testcontainers = "1.14.3"
@@ -100,8 +100,8 @@ object Plugins {
     const val spring_boot = "org.springframework.boot"
 
     object Versions {
-        const val kotlin = "1.4.32"
+        const val kotlin = "1.6.21"
         const val dependency_management = "1.0.9.RELEASE"
-        const val spring_boot = "2.4.3"
+        const val spring_boot = "2.6.7"
     }
 }

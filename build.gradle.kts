@@ -37,6 +37,9 @@ subprojects {
         plugin(Plugins.kotlin_noarg)
         plugin(Plugins.kotlin_spring)
         plugin(Plugins.kotlin_jpa)
+
+        plugin(Plugins.dependency_management)
+        plugin(Plugins.spring_boot)
     }
 
     dependencies {
